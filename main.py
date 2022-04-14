@@ -20,6 +20,6 @@ files = glob.glob(path + f"/**/*.{exte}", recursive = True)
 for ele in files:
     shutil.move(ele, destination_folder)
 
-print("All transferd has been successfully completed")
+print("All transfer has been successfully completed")
 print(f"total {len(files)} files found")
 
